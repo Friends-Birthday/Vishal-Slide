@@ -1,0 +1,30 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background:linear-gradient(to right top,#55eee8,#2df2cc,#45f4a1,#76f269,#a8eb12);
+}
+.content{
+  height: 400px;
+  width: 400px;
+  overflow: hidden;
+  box-shadow: 1px 1px 15px rgba(0,0,0,0.4);
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 12%, rgba(148,187,233,1) 99%); 
+}
+.content .a
+{
+  margin-left: 25%;
+  color: #c00303;
+}
+.content .images{
+  height: 100%;
+  width: 100%;
+}
+.images img{
+  height: 100%;
+  width: 100%;
+}
